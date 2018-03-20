@@ -7,7 +7,7 @@
 }
 body, html {
 	background-color: #262B30;
-	/*background: url("../img/background4.jpg") no-repeat scroll 0 0 / cover transparent;  <-- you could remove the color and use an image */
+	background: url("https://media.giphy.com/media/3oEduYJ5WzNGsAadKU/giphy.gif") no-repeat scroll 0 0 / cover transparent;  /*<-- you could remove the color and use an image */
 	background-repeat:no-repeat;
 	background-size:cover;
 	background-attachment:fixed;
@@ -102,8 +102,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#24ffb07f', e
     position: absolute;
     right: 0;
     top: 0;
-}
-*/
+}*/
+
 .shade2 {
 	background-color: rgba(0, 0, 0, 0.5);
 	width: 100%;
@@ -868,7 +868,7 @@ p.success {
 }
 /* mouse grab icon for Owl Carousel */
 .grabbing { 
-    cursor:url("../img/grabbing.html") 8 8, move;
+    cursor:url("../img/grabbing.png") 8 8, move;
 }
 .clearfix:after {
     content: "";

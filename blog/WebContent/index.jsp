@@ -1,13 +1,27 @@
 <!DOCTYPE html>
+
 <html>
+
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     
 <!-- Meta Tag for responsive -->
-<meta name=”viewport” content=”width=1024, minimal-ui”>
+<meta name="viewport" content="width=1024, minimal-ui">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">  
-
-<title>Akash :: Portfolio</title>
+ <link rel="manifest" href="manifest.json">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="PayPlatter">
+    <meta name="apple-mobile-web-app-title" content="PayPlatter  ">
+    <meta name="theme-color" content="#000000">
+    <meta name="msapplication-navbutton-color" content="#000000">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="msapplication-starturl" content="https://app.payplatter.in">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" type="png" sizes="192x192" href="img/appicon.png">
+    <link rel="apple-touch-icon" type="png" sizes="192x192" href="img/appicon.png">
+     <script type="text/javascript" src="service-worker.js"></script>
+<title>Akash Raj - Resume Page</title>
     
 <!-- Loading of stylesheet for the design -->
 <link href="css/main.css" rel="stylesheet" type="text/css" />
@@ -24,9 +38,23 @@
 <link rel="stylesheet" href="css/animate.css">
 
 <!-- Finally we will load the font from Google Fonts -->
-<!-- <link href='http://fonts.googleapis.com/css?family=Raleway:400,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'> -->
+<link href='http://fonts.googleapis.com/css?family=Raleway:400,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
+    
+    
+<!--    -------------for line spaceing---------------->
+    <style>
+p.small {
+    line-height: 0.7;
+}
+
+p.big {
+    line-height: 1.8;
+}
+</style>
+    <!--    -------------for line spaceing---------------->
     
 </head>
+<!--<iframe src="https://drive.google.com/file/d/0Bz0ADd_6YXZASlI0WnY1WDZSUnc/preview" width="640" height="480"></iframe>-->
 
 <body id="top">
 
@@ -66,8 +94,8 @@
                 <ul>
                     <li><a href="#top">Home</a></li>
                     <li><a href="#About">About</a></li>
-                    <li><a href="#Skills">Skills</a></li>
-                    <li><a href="#CV">CV / Resume</a></li>
+                    <li><a href="#Skills">Abilities</a></li>
+                    <li><a href="#CV">Experiences</a></li>
                     <li><a href="#Testimonials">Testimonials</a></li>
                     <li><a href="#Clients">Clients</a></li>
                     <li><a href="#Portfolio">Portfolio</a></li>
@@ -91,14 +119,14 @@
     <!-- Start of Main Title + Intro -->
     <div class="huge-title">
 
-        <img src="img/headshot.jpg" alt="Jonathan Atkinson" class="headshot wow tada" data-wow-delay="3s" data-wow-offset="80" data-wow-duration="1s">
+        <img src="img/headshot.jpg" alt="Akash Raj" class="headshot wow tada" data-wow-delay="3s" data-wow-offset="80" data-wow-duration="1s">
         <h1 class="wow bounceInDown" data-wow-offset="80" data-wow-duration="3s">Akash Raj</h1>
 
         <!-- Start of Owl Testimonial Carousel -->
         <div class="testimonials owl-carousel">
 
             <div><!-- Start of Slide 1 -->
-                <div class="button-box"><h4>UX Specialist</h4></div>
+                <div class="button-box"><h4>Professional Designer</h4></div>
             </div>
 
             <div><!-- Start of Slide 2 -->
@@ -106,7 +134,7 @@
             </div>
 
             <div><!-- Start of Slide 3 -->
-                <div class="button-box"><h4>Smart Worker</h4></div>
+                <div class="button-box"><h4>UX Specialist</h4></div>
             </div>
 
         </div><!-- End of Owl Testimonial Carousel -->
@@ -116,7 +144,7 @@
     <!-- Start of Scroll Down Message and animation -->
     <div id="godown" class="floating">
 
-        <p><a href="#About">Learn more about Akash Raj</a></p>
+        <p><a href="#About">Know more about Akash Raj</a></p>
         <img src="img/godown.png" alt="down"/>
 
     </div><!-- End of Scroll Down Message and animation -->
@@ -151,32 +179,32 @@
                 
                 <div class="one_third wow fadeInUp" data-wow-offset="120" data-wow-duration="1s">
                         <h4>FULL NAME</h4>
-                            <h5>Bruce "the bat" Wayne</h5>
+                            <h5>Akash Raj</h5>
                 </div>
                 
                 <div class="one_third wow fadeInUp" data-wow-offset="120" data-wow-duration="1s" data-wow-delay="0.2s">
-                        <h4>BIRTHPLACE</h4>
-                            <h5>Lancashire, England</h5>
+                        <h4>FUNCTIONAL AREA</h4>
+                            <h5>IT Software- Front-End Developer</h5>
                 </div>
                 
                 <div class="one_third_last wow fadeInUp" data-wow-offset="120" data-wow-duration="1s" data-wow-delay="0.3s">
-                        <h4>GENDER</h4>
-                            <h5>MALE</h5>
+                        <h4>EXPERTIES</h4>
+                            <h5>Hybrid App and UI, UX Development</h5>
                 </div>
                 
                 <div class="one_third wow fadeInUp" data-wow-offset="120" data-wow-duration="1s">
-                        <h4>RESIDENCE</h4>
-                            <h5>Pune, Maharsatra</h5>
+                        <h4>E-mail</h4>
+                            <h5>hello@akashraj.in</h5>
                 </div>
                 
                 <div class="one_third wow fadeInUp" data-wow-offset="120" data-wow-duration="1s" data-wow-delay="0.2s">
                         <h4>EDUCATION</h4>
-                            <h5>BE</h5>
+                            <h5>B.E. (Rajiv Gandhi Technical University)</h5>
                 </div>
                 
                 <div class="one_third_last wow fadeInUp" data-wow-offset="120" data-wow-duration="1s" data-wow-delay="0.3s">
-                        <h4>HOBBIES</h4>
-                            <h5>Television, Movies, Art</h5>
+                        <h4>RESIDENCE</h4>
+                            <h5>Pune, Maharastra (India)</h5>
                 </div>
                 
             </div><!-- End of Hero -->
@@ -194,17 +222,24 @@
             <div class="content" id="About">
                     
                 <h2 class="border wow fadeInRightBig" data-wow-offset="80" data-wow-duration="2s">About me</h2>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi commodo, <a href="#">ipsum sed pharetra gravida</a>, orci magna rhoncus neque, id pulvinar odio lorem non turpis. Nullam sit amet enim. Suspendisse id velit vitae ligula volutpat condimentum. Aliquam erat volutpat. Sed quis velit. Nulla facilisi. Nulla libero. Vivamus pharetra posuere sapien. Nam consectetuer. Sed aliquam, nunc eget euismod ullamcorper, lectus nunc ullamcorper orci, fermentum bibendum enim nibh eget ipsum.</p>
+                <p><!--<a href="#">ipsum sed pharetra gravida</a>--> A Professional with knowledge in IT, Progressive Hybrid App Development, Web Development & Design.</p>
 
-                <blockquote class="wow fadeInLeftBig" data-wow-offset="80" data-wow-duration="3s"><p>I wish to expand my skills on a daily basis with the help of an employee-focused company.</p></blockquote>
+<p>I am an allround web developer. I am a senior programmer with good knowledge of front-end techniques. I love structure and order and I also stand for quality. I love spending time on fixing little details and optimizing web apps. Also I like working in a team, you'll learn faster and much more. As the saying goes :</p>
 
-                <img src="img/signature.png" width="250" alt="John Hancock">
+
+                <blockquote class="wow fadeInLeftBig" data-wow-offset="80" data-wow-duration="3s"><p>Two Heads Are Better Than One</p></blockquote>
+
+                <!--  <img src="img/signature.png" width="250" alt="Akash Raj sign">-->
             
             </div><!-- End of Content -->
             
         </div><!-- End of White Container -->
         
-        
+        <style>
+        .and{
+            color: deepskyblue;
+        }
+        </style>
         
         <!-- SKILLS SECTION -->
         
@@ -214,13 +249,14 @@
             <!-- Start of Content -->
             <div class="content" id="Skills">
 
-                <h2 class="border wow fadeInRightBig" data-wow-offset="80" data-wow-duration="2s">My Skills</h2>
+                <h2 class="border wow fadeInRightBig" data-wow-offset="80" data-wow-duration="2s">My Abilities</h2>
 
                 <!-- Start of One Half Column Container -->
                 <div class="half_column1 wow fadeInLeftBig" data-wow-offset="80" data-wow-duration="2s">
 
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi commodo, ipsum sed pharetra gravida, orci magna rhoncus neque, id pulvinar odio lorem non turpis. Nullam sit amet enim. Suspendisse id velit vitae ligula volutpat condimentum. Aliquam erat volutpat.</p>
-                    <div class="button-box"><a href="#" class="button">Contact Me</a></div>
+                    <!-- <p>Analyzing Information, Software Design, Software Documentation, Software Testing, Teamwork, General Programming Skills, Software Development Fundamentals, Software Development Process, Software Requirements, Software Architecture, Coaching.</p>-->
+                    <p>I am passionate to make a positive impact on clients, co-workers, and the Internet using my skills and experience to design compelling and attractive Hybrid Apps, Websites and Desktop Applications . I enjoy working on projects that involve a mix of Web design and development.</p>
+                    <div class="button-box"><a href="mailto: akashraj111295@gmail.com" class="button">Contact Me</a></div>
 
                 </div><!-- End of One Half Column Container -->
 
@@ -229,38 +265,54 @@
 
                     <!-- Start of 3 rows -->
                     <div class="one_third centered skill">
-                        <input class="knob" data-width="100%" data-fgColor="#ffffff" data-skin="cr3ativ" data-thickness=".2" value="75" data-readOnly="true" >
-                        <h3>iOS</h3>
+                        <input class="knob" data-width="100%" data-fgColor="#ffffff" data-skin="cr3ativ" data-thickness=".2" value="90" data-readOnly="true">
+                        <h3>HTML5<span class="and">&nbsp; &#38; &nbsp;</span>CSS3</h3>
                     </div>
 
                     <div class="one_third centered skill">
                         <input class="knob" data-width="100%" data-fgColor="#ffffff" data-skin="cr3ativ" data-thickness=".2" value="90" data-readOnly="true">
-                        <h3>Android</h3>
+                        <h3>Bootstrap Framework</h3>
                     </div>
 
                     <div class="one_third_last centered skill">
-                        <input class="knob" data-width="100%" data-fgColor="#ffffff" data-skin="cr3ativ" data-thickness=".2" value="45" data-readOnly="true">
-                        <h3>JQuery</h3>
+                        <input class="knob" data-width="100%" data-fgColor="#ffffff" data-skin="cr3ativ" data-thickness=".2" value="90" data-readOnly="true">
+                        <h3>Photoshop 14.0</h3>
                     </div>
-                    <!-- End of 3 rows -->
+                        <!-- End of 3 rows -->
 
 
                     <!-- Start of 2nd 3 rows -->
                     <div class="one_third centered skill">
-                        <input class="knob" data-width="100%" data-fgColor="#ffffff" data-skin="cr3ativ" data-thickness=".2" value="80" data-readOnly="true">
-                        <h3>HTML/CSS</h3>
+                        <input class="knob" data-width="100%" data-fgColor="#ffffff" data-skin="cr3ativ" data-thickness=".2" value="80" data-readOnly="true" >
+                        <h3>Ionic Framework</h3>
                     </div>
 
                     <div class="one_third centered skill">
-                        <input class="knob" data-width="100%" data-fgColor="#ffffff" data-skin="cr3ativ" data-thickness=".2" value="85" data-readOnly="true">
-                        <h3>PHP / MYSQL</h3>
+                        <input class="knob" data-width="100%" data-fgColor="#ffffff" data-skin="cr3ativ" data-thickness=".2" value="80" data-readOnly="true">
+                        <h3>AngularJs</h3>
                     </div>
 
                     <div class="one_third_last centered skill">
-                        <input class="knob" data-width="100%" data-fgColor="#ffffff" data-skin="cr3ativ" data-thickness=".2" value="60" data-readOnly="true">
-                        <h3>ILLUSTRATOR</h3>
+                        <input class="knob" data-width="100%" data-fgColor="#ffffff" data-skin="cr3ativ" data-thickness=".2" value="70" data-readOnly="true">
+                        <h3>Java Script<span class="and">&nbsp; &#38; &nbsp;</span>JQuery</h3>
                     </div>
-                    <!-- End of 2nd 3 rows -->
+                           <!-- End of 2nd 3 rows -->
+                    
+                     <!-- Start of 3rd 3 rows -->
+                     
+                     <div class="one_third centered skill">
+                        <input class="knob" data-width="100%" data-fgColor="#ffffff" data-skin="cr3ativ" data-thickness=".2" value="70" data-readOnly="true">
+                        <h3>Wordpress</h3>
+                    </div>
+                    <div class="one_third centered skill">
+                        <input class="knob" data-width="100%" data-fgColor="#ffffff" data-skin="cr3ativ" data-thickness=".2" value="60" data-readOnly="true">
+                         <h3>JSON</h3>
+                    </div>
+                    <div class="one_third_last centered skill">
+                        <input class="knob" data-width="100%" data-fgColor="#ffffff" data-skin="cr3ativ" data-thickness=".2" value="60" data-readOnly="true">
+                        <h3>MVC Pattern</h3>
+                    </div>
+                    <!-- End of 3rd 3 rows -->
 
                 </div><!-- End of One Half Column Last Container -->
 
@@ -278,7 +330,7 @@
             <!-- Start of Content -->
             <div class="content" id="CV">
 
-                <h2 class="border wow fadeInRightBig" data-wow-offset="80" data-wow-duration="2s">curriculum vitae</h2>
+                <h2 class="border wow fadeInRightBig" data-wow-offset="80" data-wow-duration="2s">Experiences</h2>
 
                 <!-- Start of 1/3 Column -->
                 <div class="one_third clearfix wow fadeInUp" data-wow-offset="80" data-wow-duration="2s">
@@ -287,19 +339,19 @@
 
                 <!-- Start of 2/3 Column Last -->
                 <div class="two_third_last wow fadeInUpBig" data-wow-offset="80" data-wow-duration="2s">
-                    <h3>Master Of The Universe</h3>
-                    <h5>University Of Life</h5>
-                    <p class="small">3 Years</p>
-                    <div class="date">June 2010 - May 2013</div>
+                    <h3>The University of Graduate</h3>
+                    <h5>Rajiv Gandhi Proudyogiki Vishwavidyalaya</h5>
+                    <p class="small">4 Years</p>
+                    <div class="date">August 2012 - May 2016</div>
                     <p>Titles are appropriately sized and are darker giving a good visual hierachy to your page and content. With the light background and not-quite-so-dark font color it's also easy on the eyes for reading making your copy pop, and your message stand-out.</p>
                 </div><!-- End of 2/3 Column Last -->
 
                 <!-- Start of 2/3 Column Last -->
                 <div class="two_third_last wow fadeInUpBig" data-wow-offset="80" data-wow-duration="2s">
-                    <h3>Understudy Of The Universe</h3>
-                    <h5>University Of Earlier Life</h5>
+                    <h3>The University of Intermediate</h3>
+                    <h5>Magadh University Bodh gaya</h5>
                     <p class="small">2 Years</p>
-                    <div class="date">June 2008 - May 2010</div>
+                    <div class="date">April 2010 - March 2012</div>
                     <p>Titles are appropriately sized and are darker giving a good visual hierachy to your page and content. With the light background and not-quite-so-dark font color it's also easy on the eyes for reading making your copy pop, and your message stand-out.</p>
                 </div><!-- End of 2/3 Column Last -->
 
@@ -313,7 +365,7 @@
                 <!-- Start of 2/3 Column Last -->
                 <div class="two_third_last wow fadeInUpBig" data-wow-offset="80" data-wow-duration="2s">
                     <h3>Front End Developer</h3>
-                    <h5>XYZ Company, Utah</h5>
+                    <h5>Dexpert Systems PVT. Ltd.</h5>
                     <p class="small">6 Months</p>
                     <div class="date">June 2013 - Present</div>
                     <p>Titles are appropriately sized and are darker giving a good visual hierachy to your page and content. With the light background and not-quite-so-dark font color it's also easy on the eyes for reading making your copy pop, and your message stand-out.</p>
@@ -322,11 +374,11 @@
                 <!-- Start of 2/3 Column Last -->
                 <div class="two_third_last wow fadeInUpBig" data-wow-offset="80" data-wow-duration="2s">
                     <h3>Internship</h3>
-                    <h5>Company ABC</h5>
-                    <p class="small">1 Year</p>
-                    <div class="date">May 2012 - May 2013</div>
+                    <h5>Dexpert Systems PVT. Ltd.</h5>
+                    <p class="small">1 Month</p>
+                    <div class="date">JULY 2015 - AUGUST 2015</div>
                     <p>Titles are appropriately sized and are darker giving a good visual hierachy to your page and content. With the light background and not-quite-so-dark font color it's also easy on the eyes for reading making your copy pop, and your message stand-out.</p>
-                    <a href="#" class="button-reverse">Download My CV</a><a href="#" class="button">LinkedIn Profile</a>
+                    <a href="#" class="button-reverse">Download My CV</a><a href="https://www.linkedin.com/in/akash-raj-238b5197?trk=nav_responsive_tab_profile_pic" class="button" target="_blank">LinkedIn Profile</a>
                 </div><!-- End of 2/3 Column Last -->
 
             </div><!-- End of Content -->
@@ -347,10 +399,10 @@
                                 
                     <!-- Start of Owl Carousel -->
                     <div class="testimonials owl-carousel">
-                          <div><blockquote><p>The content width, line spacing and font size follow the golden ratio formula for optimal reading on any device.</p><cite>Jonathan Atkinson</cite></blockquote></div>
-                          <div><blockquote><p>The content width, line spacing and font size follow the golden ratio formula.</p><cite>Jonathan Atkinson</cite></blockquote></div>
-                          <div><blockquote><p>The content width, line spacing</p><cite>Jonathan Atkinson</cite></blockquote></div>
-                          <div><blockquote><p>The content width, line spacing and font size follow the golden ratio formula for optimal.</p><cite>Jonathan Atkinson</cite></blockquote></div>
+                          <div><blockquote><p>“Awesome to work with. Incredibly organized, easy to communicate with, responsive with next iterations, and beautiful work.”</p><cite>Harsh Raj,  "SRS",New Delhi</cite></blockquote></div>
+                          <div><blockquote><p>“Your designs were exactly what Akash had always imagined — clear, clean, continuous, with a focus on stylistic elements. Thank you so much for your work on this project. It was a major help for us.”</p><cite>Anupam Jeevan,"Dexpert Systems", Pune</cite></blockquote></div>
+                          <div><blockquote><p>"Our project implementation and transition was quite smooth. Akash always responded well whenever there was an issue to be sorted out."</p><cite>Ravi Shankar, Bhopal</cite></blockquote></div>
+                          <div><blockquote><p>“Very smart Guy,working on the project — He provided great insight and brought experience to the project. Sales person was very prompt and he was able to respond quickly to the changing project requirements.”</p><cite>Chandan Singh,"Dexpert Systems"</cite></blockquote></div>
                     </div><!-- End of Carousel -->
                     
 				</div><!-- End of Content -->
@@ -508,12 +560,12 @@
             <!-- Start of Content -->
             <div class="content">
 
-                <p>1234 Main St. Suite 1<br>
-                Springfiled, CA 90210<br>
-                Phone: 123-456-7890<br>
-                <a href="mailto: jane@doe.com">Jane@doe.com</a></p>
+                <p>H.N-44, Near SBI Makhdumpur <br>
+                Dist-Jehanabad, Bihar INDIA-804422<br>
+                Phone: +91-9009856756<br>
+                <a href="mailto: akashraj111295@gmail.com">akashraj111295@gmail.com</a></p>
 
-                <p class="copyright">Copyright 2014 - Jonathan Atkinson</p>
+                <p class="copyright">Copyright 2016 - Akash Raj</p>
 
             </div><!-- End of Content -->
 
@@ -546,6 +598,4 @@ if (!window.jQuery) {
 <script type="text/javascript" src="js/app.js"></script>
 <script type="text/javascript" src="js/wow.min.js"></script>
 </body>
-
-<!-- Mirrored from mythemepreviews.com/uno_personal/video/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 15 Apr 2016 07:09:08 GMT -->
 </html>

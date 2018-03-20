@@ -1,0 +1,17 @@
+{
+  "name": "Akash Resume",
+  "short_name": "Akash Resume",
+  "description": "Hybrid App and UI, UX Development & Design Engineer",
+  "lang": "en-US",
+  "start_url": "http://akashraj.in",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "img/appicon.png",
+      "sizes": "168x168",
+      "type": "image/png"
+    }
+  ],
+  "background_color": "#000000"
+}
